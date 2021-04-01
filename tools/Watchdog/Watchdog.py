@@ -310,7 +310,7 @@ consoleHandler.setFormatter(logFormatter)
 log.addHandler(consoleHandler)
 
 log.info('-----')
-log.info('/vg/station Watchdog: Started.')
+log.info('Oasis 2004 Watchdog: Started.')
 send_nudge('Watchdog script restarted.')
 lastState = True
 failChain = 0
