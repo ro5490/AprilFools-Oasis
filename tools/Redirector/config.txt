@@ -10,3 +10,4 @@
 ## Specify some standard Windows filepaths (you may use relative paths) for admin txt lists to poll.
 
 C:\SS13\config\admins.txt
+F:\tgs4_instances\OasisAprilFools\Configuration\GameStaticFiles\config\admins.txt
