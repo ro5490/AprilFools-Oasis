@@ -360,12 +360,9 @@ var/savefile/panicfile
 		s += "<b>[config.server_name]</b> &#8212; "
 
 
-	s += {"<b>[station_name()]</b>"
-		(
-		<a href=\"http://\">" //Change this to wherever you want the hub to link to
-		Default"  //Replace this with something else. Or ever better, delete it and uncomment the game version
-		</a>
-		)"}
+	s += "<b>[station_name()]</b>";
+	s += " <b>Based LRP</b> (<a href='https://discord.gg/CwYA6Mz'>Discord</a>|<a href='https://www.patreon.com/user?u=18827448'>Donations</a>)" // OASIS EDIT
+	s += "<br><img src=\"https://i.imgur.com/lrm067D.gif\"></br>" //Banner image // OASIS EDIT
 	var/list/features = list()
 
 	if(ticker)
